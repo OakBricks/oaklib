@@ -12,3 +12,5 @@ Run `PREFIX=/usr make install` (or set `PREFIX` to `/usr/local` if you have your
 
 # Uninstalling
 Run `PREFIX=/usr make uninstall` as `root` (Superuser)
+
+# Testing
