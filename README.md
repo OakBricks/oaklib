@@ -14,3 +14,8 @@ Run `PREFIX=/usr make install` (or set `PREFIX` to `/usr/local` if you have your
 Run `PREFIX=/usr make uninstall` as `root` (Superuser)
 
 # Testing
+`gcc test.c -loaklib` (if using a shared library) (Replace GCC with your preferred C compiler)
+`./a.out` (Set `LD_LIBRARY_PATH` if you installed with a prefix that wasn't /usr)
+
+If you followed these vauge steps correctly (works on my machine!) it should look like the below image:
+![Output](readme/output.png)
